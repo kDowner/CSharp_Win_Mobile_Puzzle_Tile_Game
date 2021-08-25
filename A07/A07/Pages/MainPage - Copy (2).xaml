@@ -1,0 +1,105 @@
+﻿<Page
+    x:Class="A07.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:A07"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*">
+                
+            </ColumnDefinition>
+            <ColumnDefinition Width="3*">
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="1*">
+
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+        
+        
+        
+        <StackPanel Background="Red" Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Left">
+            <Rectangle   Width="200" ></Rectangle>
+        </StackPanel>
+
+        
+        
+        
+        
+        <StackPanel Grid.Column="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+            <TextBlock
+                Text="GAME TITLE"
+                FontSize="48"
+                />
+
+            <Button
+                Name="btn_StartGame"
+                Content="START THE GAME"
+                VerticalAlignment="Center" 
+                HorizontalAlignment="Center"
+                Margin="0,20,0,20"
+                FontSize="25" 
+                PointerPressed="btn_StartGame_PointerPressed"
+                />
+
+
+            <Button
+                Name="btn_ContinueGame"
+                Content="CONTINUE"
+                VerticalAlignment="Center" 
+                HorizontalAlignment="Center"
+                Margin="0,0,0,20"
+                FontSize="25" PointerPressed="btn_ContinueGame_PointerPressed"
+                />
+
+            <Button
+                Name="btn_ScoreBoard"
+                Content="SCORE BOARD"
+                VerticalAlignment="Center" HorizontalAlignment="Center"
+                Margin="0,0,0,20"
+                FontSize="25" 
+                PointerPressed="btn_ScoreBoard_PointerPressed"             
+                >
+            </Button>
+
+            <Button
+                Name="btn_Exit"
+                Content="Exit"
+                VerticalAlignment="Center" HorizontalAlignment="Center"
+                Margin="0,0,0,20"
+                FontSize="25" 
+                PointerPressed="btn_Exit_PointerPressed"              
+                >
+            </Button>
+            
+        </StackPanel>
+        
+        
+        
+        
+        
+        <StackPanel Background="Red" Grid.Column="2" Grid.ColumnSpan="1" Orientation="Vertical" HorizontalAlignment="Right">
+            <Rectangle   Width="200" ></Rectangle>
+        </StackPanel>
+ 
+    
+    
+        
+        
+    </Grid>
+    
+    
+
+        
+     
+</Page>

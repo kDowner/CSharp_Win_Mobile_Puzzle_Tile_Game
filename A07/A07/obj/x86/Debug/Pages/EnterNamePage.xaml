@@ -1,0 +1,78 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="A07.EnterNamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:A07"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:A07.Classes"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+
+    
+    
+    
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+
+        
+
+
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical">
+            
+            <TextBlock Text="Name:" VerticalAlignment="Center" Margin="10" />
+            
+            <TextBox x:ConnectionId='2' 
+                Name="txt_Name" 
+                Margin="10"
+                Width="200"
+                HorizontalAlignment="Left"/>
+
+            
+            <TextBlock Text="Avatar:" VerticalAlignment="Center" Margin="10" />
+            <ComboBox x:ConnectionId='3' Name="AvatarComboBox" 
+                      Height="50"
+                      Width="100"
+                                                   
+                      Margin="10">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate                       >
+                        <Image x:ConnectionId='6'                            Width="40" Height="40" />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+
+            <Button x:ConnectionId='4' Name="AddRecord"
+                                           
+                    Content="Add"
+                    Margin="10" />
+     
+
+            
+
+
+        </StackPanel>
+
+
+
+
+
+
+    </Grid>
+</Page>
+

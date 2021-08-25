@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <UseSimulator>false</UseSimulator>
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <UseEmulator>false</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AppIconSource>C:\tmp\PROG2121_STUFF\A7\ForKev_A07_v3\A07\A07\Assets\Icons\gameicon.png</AppIconSource>
+    <BadgeLogoSource>C:\tmp\PROG2121_STUFF\A7\ForKev_A07_v3\A07\A07\Assets\Icons\trophwin.png</BadgeLogoSource>
+    <PackageLogoSource>C:\tmp\PROG2121_STUFF\A7\ForKev_A07_v3\A07\A07\Assets\Icons\gameicon.png</PackageLogoSource>
+    <SplashScreenSource>C:\tmp\PROG2121_STUFF\A7\ForKev_A07_v3\A07\A07\Assets\SplashScreen\splahsLogo400by400.png</SplashScreenSource>
+  </PropertyGroup>
+</Project>

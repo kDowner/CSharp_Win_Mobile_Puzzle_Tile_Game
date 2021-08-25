@@ -1,0 +1,112 @@
+﻿<Page
+    x:Class="A07.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:A07"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid>
+        <Grid.FocusVisualPrimaryBrush>
+            <ImageBrush/>
+        </Grid.FocusVisualPrimaryBrush>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Background/redbluesmoke.png"/>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*">
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="3*">
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="1*">
+
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+
+
+
+        <StackPanel Grid.Column="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Width="415" BackgroundSizing="InnerBorderEdge" Padding="-1,0,0,0" CornerRadius="50,50,50,50">
+            <StackPanel.Background>
+                <ImageBrush/>
+            </StackPanel.Background>
+            <StackPanel.FocusVisualPrimaryBrush>
+                <ImageBrush/>
+            </StackPanel.FocusVisualPrimaryBrush>
+
+
+
+            <TextBlock
+                Text="PUZZLER"
+                FontSize="48"
+               VerticalAlignment="Center" 
+                HorizontalAlignment="Center" FocusVisualPrimaryBrush="{x:Null}" Foreground="#FF890800" SelectionHighlightColor="#FFEA0F00"
+                />
+
+            <Image Source="/Assets/Icons/trophwin.png" Height="116" RenderTransformOrigin="0.5,0.5" Width="116" FocusVisualPrimaryBrush="White" >
+
+                <Image.RenderTransform>
+                    <CompositeTransform ScaleX="-1"/>
+                </Image.RenderTransform>
+            </Image>
+            <Button
+                x:Name="btn_StartGame"
+                Content="START THE GAME"
+                VerticalAlignment="Center" 
+                HorizontalAlignment="Center"
+                Margin="0,20,0,20"
+                FontSize="25" 
+                PointerPressed="btn_StartGame_PointerPressed" FocusVisualPrimaryBrush="{x:Null}" RequestedTheme="Default"
+                />
+
+
+            <Button
+                x:Name="btn_ContinueGame"
+                Content="CONTINUE"
+                VerticalAlignment="Center" 
+                HorizontalAlignment="Center"
+                Margin="0,0,0,20"
+                FontSize="25" PointerPressed="btn_ContinueGame_PointerPressed"
+                FocusVisualPrimaryBrush="#FF8A0900"
+                />
+
+            <Button
+                x:Name="btn_ScoreBoard"
+                Content="SCORE BOARD"
+                VerticalAlignment="Center" HorizontalAlignment="Center"
+                Margin="0,0,0,20"
+                FontSize="25" 
+                PointerPressed="btn_ScoreBoard_PointerPressed"             
+                />
+
+            <Button
+                x:Name="btn_Exit"
+                Content="Exit"
+                VerticalAlignment="Center" HorizontalAlignment="Center"
+                Margin="0,0,0,20"
+                FontSize="25" 
+                PointerPressed="btn_Exit_PointerPressed"              
+                />
+
+
+
+        </StackPanel>
+
+
+
+
+
+    </Grid>
+
+
+
+
+
+</Page>

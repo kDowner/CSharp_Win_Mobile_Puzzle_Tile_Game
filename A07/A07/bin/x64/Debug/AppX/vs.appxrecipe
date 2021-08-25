@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SNICKERSNACK</Machine>
+    <WindowsUser>squir</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>49b70dea-8fc9-427e-ae66-2fd5ccce8aec</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Dusan</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>C34C60C6F9CFCB0FF1F8CE2B236761C9C1FBAEA833B7D01E56932B75A2D280B3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>49b70dea-8fc9-427e-ae66-2fd5ccce8aec_1.0.0.0_x64__kh19mq25d0r1j</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>49b70dea-8fc9-427e-ae66-2fd5ccce8aec_kh19mq25d0r1j!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>49b70dea-8fc9-427e-ae66-2fd5ccce8aec</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Dusan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T22:37:30.314</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\bin\x64\Debug\A07.exe">
+      <PackagePath>entrypoint\A07.exe</PackagePath>
+      <Modified>2020-12-14T22:37:29.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2020-02-28T00:17:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T23:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.altform-unplated_targetsize-24.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.altform-unplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\AppIcon\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\AppIcon\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\BadgeLogo\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\BadgeLogo\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\BadgeLogo\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\BadgeLogo\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.451</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\BadgeLogo\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\Icons\gameicon.png">
+      <PackagePath>Assets\Icons\gameicon.png</PackagePath>
+      <Modified>2020-12-14T10:22:45.485</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\PackageLogo\StoreLogo.scale-100.png">
+      <PackagePath>Assets\PackageLogo\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\PackageLogo\StoreLogo.scale-125.png">
+      <PackagePath>Assets\PackageLogo\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\PackageLogo\StoreLogo.scale-150.png">
+      <PackagePath>Assets\PackageLogo\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\PackageLogo\StoreLogo.scale-200.png">
+      <PackagePath>Assets\PackageLogo\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\PackageLogo\StoreLogo.scale-400.png">
+      <PackagePath>Assets\PackageLogo\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\ProfileIcons\female-01.png">
+      <PackagePath>Assets\ProfileIcons\female-01.png</PackagePath>
+      <Modified>2020-12-14T10:22:45.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\ProfileIcons\female-02.png">
+      <PackagePath>Assets\ProfileIcons\female-02.png</PackagePath>
+      <Modified>2020-12-14T10:22:45.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\ProfileIcons\female-03.png">
+      <PackagePath>Assets\ProfileIcons\female-03.png</PackagePath>
+      <Modified>2020-12-14T10:22:45.628</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\ProfileIcons\male-01.png">
+      <PackagePath>Assets\ProfileIcons\male-01.png</PackagePath>
+      <Modified>2020-12-14T10:22:45.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\ProfileIcons\male-02.png">
+      <PackagePath>Assets\ProfileIcons\male-02.png</PackagePath>
+      <Modified>2020-12-14T10:22:45.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\ProfileIcons\male-03.png">
+      <PackagePath>Assets\ProfileIcons\male-03.png</PackagePath>
+      <Modified>2020-12-14T10:22:45.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\Background\redbluecurtain.png">
+      <PackagePath>Assets\Background\redbluecurtain.png</PackagePath>
+      <Modified>2020-12-14T10:22:45.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\Background\redbluesmoke.png">
+      <PackagePath>Assets\Background\redbluesmoke.png</PackagePath>
+      <Modified>2020-12-14T10:22:45.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\SplashScreen\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\SplashScreen\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\SplashScreen\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\SplashScreen\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\SplashScreen\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-14T10:22:45.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\Tiles\blueButton300.png">
+      <PackagePath>Assets\Tiles\blueButton300.png</PackagePath>
+      <Modified>2020-12-14T10:22:45.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\Tiles\redButton300.png">
+      <PackagePath>Assets\Tiles\redButton300.png</PackagePath>
+      <Modified>2020-12-14T10:22:45.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\Icons\trophwin.png">
+      <PackagePath>Assets\Icons\trophwin.png</PackagePath>
+      <Modified>2020-12-14T10:22:45.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\Titles\bestTimesTitleNeonGlowRed01.png">
+      <PackagePath>Assets\Titles\bestTimesTitleNeonGlowRed01.png</PackagePath>
+      <Modified>2020-12-14T10:22:46.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\Titles\gametitleTitleNeonGlowRed01.png">
+      <PackagePath>Assets\Titles\gametitleTitleNeonGlowRed01.png</PackagePath>
+      <Modified>2020-12-14T10:22:46.181</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\Titles\highScoresNeonGlowRed01.png">
+      <PackagePath>Assets\Titles\highScoresNeonGlowRed01.png</PackagePath>
+      <Modified>2020-12-14T10:22:46.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\Titles\youwinTitleNeonGlowRed01.png">
+      <PackagePath>Assets\Titles\youwinTitleNeonGlowRed01.png</PackagePath>
+      <Modified>2020-12-14T10:22:46.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Assets\Background\blackTextureSilkBckgd.jpg">
+      <PackagePath>Assets\Background\blackTextureSilkBckgd.jpg</PackagePath>
+      <Modified>2020-12-14T10:22:45.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-12-14T10:22:50.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\bin\x64\Debug\A07.xr.xml">
+      <PackagePath>A07.xr.xml</PackagePath>
+      <Modified>2020-12-14T21:32:41.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-12-14T22:37:28.985</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\bin\x64\Debug\Pages\EnterNamePage.xbf">
+      <PackagePath>Pages\EnterNamePage.xbf</PackagePath>
+      <Modified>2020-12-14T22:37:28.985</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\bin\x64\Debug\Pages\GamePage.xbf">
+      <PackagePath>Pages\GamePage.xbf</PackagePath>
+      <Modified>2020-12-14T22:37:28.985</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\bin\x64\Debug\Pages\MainPage.xbf">
+      <PackagePath>Pages\MainPage.xbf</PackagePath>
+      <Modified>2020-12-14T22:37:28.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\bin\x64\Debug\Pages\ScoreBoardPage.xbf">
+      <PackagePath>Pages\ScoreBoardPage.xbf</PackagePath>
+      <Modified>2020-12-14T22:37:28.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T22:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-12-14T22:37:29.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\tmp\PROG2121_STUFF\A7\FINAL_SUBMISSION\A07\A07\bin\x64\Debug\Core\A07.exe">
+      <PackagePath>A07.exe</PackagePath>
+      <Modified>2020-12-14T22:37:30.311</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

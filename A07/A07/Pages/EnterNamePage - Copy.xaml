@@ -1,0 +1,76 @@
+﻿<Page
+    x:Class="A07.EnterNamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:A07"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:A07.Classes"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+
+    
+    
+    
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+
+        
+
+
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical">
+            
+            <TextBlock Text="Name:" VerticalAlignment="Center" Margin="10" />
+            
+            <TextBox 
+                Name="txt_Name" 
+                Margin="10"
+                Width="200"
+                HorizontalAlignment="Left"/>
+
+            
+            <TextBlock Text="Avatar:" VerticalAlignment="Center" Margin="10" />
+            <ComboBox Name="AvatarComboBox" 
+                      Height="50"
+                      Width="100"
+                      ItemsSource="{x:Bind Icons}" 
+                      Margin="10">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate x:DataType="data:Icon">
+                        <Image Source="{x:Bind IconPath}" Width="40" Height="40" />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+
+            <Button Name="AddRecord"
+                    Content="Add"
+                    Margin="10" PointerPressed="AddRecord_PointerPressed" />
+     
+
+            
+
+
+        </StackPanel>
+
+
+
+
+
+
+    </Grid>
+</Page>

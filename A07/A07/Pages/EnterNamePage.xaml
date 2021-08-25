@@ -1,0 +1,243 @@
+﻿<!--FILE				: EnterNamePage.xaml.cs
+PROJECT			: A07 (PROG2121)
+FIRST VERSION	: 2020-12-14 (Rev.07)
+AUTHOR			: Dusan Sasic & Kevin Downer
+DESCRIPTION		: The Third Enter Name Page of the Program 'Puzzler'.
+The Application simulates a virtual slide block game,
+where the objective is to arrange the tiles in order.
+This page allows the User to choose an avatar and enter their name or handle
+for the final page score board entry.
+Components on this page:
+'You Win' title, 'Enter Name' text, 'Name' textblock,
+'Avatar' selection, 'Add' button.-->
+
+<Page
+    x:Class="A07.EnterNamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:A07"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:A07.Classes"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid>
+        <Grid.Background>
+
+            <ImageBrush
+            x:Name="img_RedBlueSmoke"
+            ImageSource="/Assets/Background/redbluesmoke.png"
+            Stretch="UniformToFill"
+            />
+
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition 
+            Width="0.2*"
+            />
+            <ColumnDefinition 
+            Width="2*"
+            />
+            <ColumnDefinition 
+            Width="0.2*"
+            />
+
+        </Grid.ColumnDefinitions>
+
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition 
+            Height="1*"
+            />
+            <RowDefinition 
+            Height="4*"
+            />
+            <RowDefinition
+            Height="1*"
+            />
+            
+        </Grid.RowDefinitions>
+
+
+        <Viewbox
+        Grid.Column="1" 
+        Grid.Row="1" 
+        Stretch="Uniform"
+        >
+
+
+            <StackPanel
+            x:Name="stack_RedBlackBlock"
+            Grid.Column="1"
+            Grid.Row="1"
+            Orientation="Vertical"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="400"
+            BackgroundSizing="InnerBorderEdge"
+            Padding="-1,0,0,0"
+            CornerRadius="50,50,50,50"
+            BorderBrush="#FF880800"
+            BorderThickness="10,5,10,5"
+            CompositeMode="Inherit"
+            HighContrastAdjustment="Application"
+            XYFocusDownNavigationStrategy="Auto"
+            XYFocusRightNavigationStrategy="Auto"
+            >
+
+                <StackPanel.Background>
+
+                    <ImageBrush
+                    ImageSource="/Assets/Background/blackTextureSilkBckgd.jpg"
+                    />
+
+                </StackPanel.Background>
+
+                <Image
+                x:Name="img_NeonGlowRed"
+                Source="/Assets/Titles/youwinTitleNeonGlowRed01.png"
+                />
+
+
+                <Image
+                x:Name="img_TrophyIcon"
+                Source="/Assets/Icons/trophwin.png"
+                Height="116"
+                RenderTransformOrigin="0.5,0.5"
+                Width="116"
+                FocusVisualPrimaryBrush="White"
+                >
+
+                    <Image.RenderTransform>
+
+                        <CompositeTransform
+                        ScaleX="-1"
+                        />
+
+                    </Image.RenderTransform>
+
+                </Image>
+
+                <TextBlock
+                Text=""               
+                FontSize="20"
+                TextAlignment="Center"
+                HorizontalAlignment="Center"
+                />
+
+                <TextBlock
+                Text="Please Enter Your Name and Choose an Avatar"               
+                FontSize="20"
+                TextAlignment="Center"
+                HorizontalAlignment="Center"
+                FocusVisualPrimaryBrush="{x:Null}"
+                Foreground="#FFC8C8C8"
+                SelectionHighlightColor="#FFEA0F00"
+                TextWrapping="Wrap"
+                Width="232"
+                LineStackingStrategy="MaxHeight"
+                />
+
+                <TextBlock
+                Text="&#x0a;"               
+                FontSize="20"
+                TextAlignment="Center"
+                HorizontalAlignment="Center"
+                />
+
+                <StackPanel
+                x:Name="stack_NameBox"
+                Orientation="Horizontal"
+                HorizontalAlignment="Center"
+                >
+
+                    <TextBlock
+                    Text="Name:"
+                    VerticalAlignment="Center"
+                    Margin="10"
+                    />
+
+                    <TextBox 
+                    Name="txt_Name" 
+                    Margin="10"
+                    Width="200"
+                    HorizontalAlignment="Center"
+                    />
+
+                </StackPanel>
+
+                <TextBlock
+                Text=""               
+                FontSize="20"
+                TextAlignment="Center"
+                HorizontalAlignment="Center"
+                />
+
+
+                <StackPanel
+                x:Name="stack_AvatarBox"
+                Orientation="Horizontal"
+                HorizontalAlignment="Center"
+                >
+
+                    <TextBlock
+                    Text="Avatar:"
+                    VerticalAlignment="Center"
+                    Margin="10"
+                    />
+                    <Viewbox 
+                    Height="50" Width="100"
+                    Stretch="UniformToFill"
+                    >
+
+
+                        <ComboBox                            
+                        x:Name="AvatarComboBox"
+                        ItemsSource="{x:Bind Path=Icons}" 
+                        Height="50" Width="100"
+                        >
+
+                            <ComboBox.ItemTemplate>
+
+                                <DataTemplate
+                                x:DataType="data:Icon"
+                                >
+
+                                    <Image
+                                    Source="{x:Bind Path=IconPath}"
+                                    Width="40"
+                                    Height="40" HorizontalAlignment="Stretch"
+                                    />
+
+                                </DataTemplate>
+
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+
+                    </Viewbox>
+
+                </StackPanel>
+
+                <TextBlock
+                Text=""               
+                FontSize="20"
+                TextAlignment="Center"
+                HorizontalAlignment="Center"
+                />
+
+                <Button Name="AddRecord"
+                Content="Add"
+                Margin="10"
+                HorizontalAlignment="Center"
+                Tapped="AddRecord_Tapped"
+                />
+
+            </StackPanel>
+        </Viewbox>
+    </Grid>
+</Page>

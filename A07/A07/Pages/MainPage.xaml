@@ -1,0 +1,179 @@
+﻿<!--FILE				: MainPage.xaml
+PROJECT			: A07 (PROG2121)
+FIRST VERSION	: 2020-12-14 (Rev.07)
+AUTHOR			: Dusan Sasic & Kevin Downer
+DESCRIPTION		: The Main start Page of the Program 'Puzzler'.
+The Application simulates a virtual slide block game,
+where the objective is to arrange the tiles in order.
+This page specifically welcomes the User to the game application.
+Components on this page:
+There is a Title of the game, and four main button:
+'Start the Game', 'Continue', 'Scoreboard' and 'Exit' buttons.
+The User chooses the action by activating one of the buttons.-->
+
+<Page
+    x:Class="A07.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:A07"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid>
+        <Grid.Background>
+
+            <ImageBrush
+            x:Name="img_redBlueSmoke" 
+            ImageSource="/Assets/Background/redbluesmoke.png" 
+            Stretch="UniformToFill"
+            />
+
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition 
+            Width="0.2*"
+            />
+            <ColumnDefinition 
+            Width="2*"
+            />
+            <ColumnDefinition 
+            Width="0.2*"
+            />
+
+        </Grid.ColumnDefinitions>
+
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition 
+            Height="1*"
+            />
+            <RowDefinition 
+            Height="4*"
+            />
+            <RowDefinition
+            Height="1*"
+            />
+
+        </Grid.RowDefinitions>
+
+
+        <Viewbox  
+        Grid.Column="1" 
+        Grid.Row="1" 
+        Stretch="Uniform"
+        >
+
+            <StackPanel
+            x:Name="stack_RedBlackBox" 
+            Grid.Column="1" 
+            Grid.Row="1"  
+            Orientation="Vertical" 
+            VerticalAlignment="Center" 
+            HorizontalAlignment="Center" 
+            Width="400" 
+            BackgroundSizing="InnerBorderEdge" 
+            Padding="-1,0,0,0" 
+            CornerRadius="50,50,50,50" 
+            BorderBrush="#FF880800" 
+            BorderThickness="10,5,10,5" 
+            CompositeMode="Inherit" 
+            HighContrastAdjustment="Application" 
+            XYFocusDownNavigationStrategy="Auto" 
+            XYFocusRightNavigationStrategy="Auto"
+            >
+
+                <StackPanel.Background>
+
+                    <ImageBrush
+                    x:Name="img_BlackTextureSilk" 
+                    ImageSource="/Assets/Background/blackTextureSilkBckgd.jpg"
+                    />
+
+                </StackPanel.Background>
+
+                <Image
+                x:Name="img_NeonGlowRed" 
+                Source="/Assets/Titles/gametitleTitleNeonGlowRed01.png" 
+                VerticalAlignment="Center" 
+                HorizontalAlignment="Center" 
+                />
+
+                <!--<TextBlock
+                Text="PUZZLER"
+                FontSize="48"
+               VerticalAlignment="Center" 
+                HorizontalAlignment="Center"
+                    FocusVisualPrimaryBrush="{x:Null}" Foreground="#FF8A0900" SelectionHighlightColor="#FFEA0F00"
+                />-->
+
+                <Image
+                x:Name="img_GameIcon"
+                Source="/Assets/Icons/gameicon.png"
+                Height="116" 
+                RenderTransformOrigin="0.5,0.5" 
+                Width="116" 
+                FocusVisualPrimaryBrush="White" 
+                >
+
+                    <Image.RenderTransform>
+
+                        <CompositeTransform
+                        ScaleX="-1"
+                        />
+
+                    </Image.RenderTransform>
+
+                </Image>
+
+
+                <Button
+                Name="btn_StartGame"
+                Content="START THE GAME"
+                VerticalAlignment="Center" 
+                HorizontalAlignment="Center"
+                Margin="0,20,0,20"
+                FontSize="25" 
+                Tapped="btn_StartGame_Tapped"
+                />
+
+                <Button
+                Name="btn_ContinueGame"
+                Content="CONTINUE"
+                VerticalAlignment="Center" 
+                HorizontalAlignment="Center"
+                Margin="0,0,0,20"
+                FontSize="25"
+                IsEnabled="{x:Bind enabled}" 
+                Tapped="btn_ContinueGame_Tapped"
+                />
+
+                <Button
+                Name="btn_ScoreBoard"
+                Content="SCORE BOARD"
+                VerticalAlignment="Center" 
+                HorizontalAlignment="Center"
+                Margin="0,0,0,20"
+                FontSize="25" 
+                Tapped="btn_ScoreBoard_Tapped"             
+                />
+
+                <Button
+                Name="btn_Exit"
+                Content="Exit"
+                VerticalAlignment="Center" 
+                HorizontalAlignment="Center"
+                Margin="0,0,0,20"
+                FontSize="25" 
+                Tapped="btn_Exit_Tapped"              
+                />
+
+            </StackPanel>
+        </Viewbox>
+    </Grid>
+</Page>
