@@ -1,4 +1,4 @@
-# CSharp_Win_Mobile_Puzzler_Tile_Game
+# Puzzler Game in Win Framework
  Puzzler Game Application (C#) with Visual Studio
 
 Description:
