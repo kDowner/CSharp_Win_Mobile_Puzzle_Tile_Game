@@ -3,7 +3,7 @@
  Android Phone Application (Java) with Android Studio
 
 Description:
-A colourful Puzzler App, develped in the C# Framework.  The blocks are slid until the numbers ascend.  Objective is to complete the puzzler as fast as possible to appear on the Leaderboard.
+A colourful Puzzler App, developed with the C# Framework library.  The blocks are slid until the numbers ascend.  Objective is to complete the puzzler as fast as possible to appear on the Leaderboard.
 
 Elements:
 VS C# Framework Development, Game pausing capabilities, multi-screen switching, time and score tracking.
